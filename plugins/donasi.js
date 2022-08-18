@@ -1,16 +1,16 @@
 let handler = async m => m.reply(`
 ╭─「 Donasi • Pulsa 」
-│ • Indosat Ooredoo [085895086040]
-│ • Telkomsel [081334177340]
+│ • Theree 3 [089618728196]
+│ • XL axiata [087892870587]
 ╰────
 
 ╭─「 Donasi • Non Pulsa 」
-│ • https://saweria.co/Nurutomo
-│ • https://saweria.co/ariffb
+│ • Dana : 089618738196
+│ • Ovo / Gopay : 087892870587
 ╰────
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['donasi']
-handler.tags = ['info']
+handler.help = ['donasi🗿']
+handler.tags = ['info☕']
 handler.command = /^dona(te|si)$/i
 
 module.exports = handler
